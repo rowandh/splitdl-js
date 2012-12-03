@@ -7,7 +7,7 @@
 (function($) {
     $(document).ready(function () {
         window.URL = window.URL || window.webkitURL;
-        var url = "../img/random500x500.jpg" + "?" + Math.random();
+        var url = "img/banana.jpg" + "?" + Math.random();
 
         var outputBlob,
             chunks = 4,
